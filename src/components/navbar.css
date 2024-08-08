@@ -1,0 +1,96 @@
+.nav {
+  font-family: Lato, sans-serif;
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+  justify-content: space-between;
+  align-items: center; /* Changed from top to center */
+  padding:  1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Make navbar fixed */
+  top: 0; /* Position it at the top */
+  width: 100%; /* Make it span the full width */
+  z-index: 1000; /* Ensure it stays above other content */
+  
+}
+
+.nav.active {
+  background-color: #f8f8f8;
+}
+
+.logo img {
+  height: 30px;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  margin: 0 1rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu a:hover {
+  color: #557882; /* Change this to your desired hover color */
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  padding-right:2rem ;
+}
+
+.links a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.links a:hover {
+  color: #557882;
+}
+
+.menu-button {
+  display: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0rem 4rem;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px; /* Adjust based on the height of your navbar */
+    right: 0;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  .links {
+    display: none;
+  }
+}
+
+body {
+  padding-top: 70px; /* Adjust based on the height of your navbar */
+}
