@@ -17,13 +17,13 @@ const Footer = () => {
             Curating premium wristwatches and accessories <br></br>for the modern gentleman.
           </p>
           <div className="social-links">
-            <a href="#">
+            <a href="https://www.facebook.com" target="blank">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="#">
+            <a href="https://www.twitter.com" target="blank">
               <i className="fab fa-twitter"></i>
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com" target="blank">
               <i className="fab fa-instagram"></i>
             </a>
           </div>
