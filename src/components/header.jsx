@@ -3,7 +3,7 @@ import logo from '../images/watch1.png';
 import "./header.css";
 
 export const Header = () => {
-  const [nav, setNav] = useState(false);
+  //const [nav, setNav] = useState(false);
 
   return (
     <header className="headerNav">
