@@ -93,7 +93,7 @@
 /* Tablet View */
 @media (max-width: 1024px) {
   .products {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+    grid-template-columns: repeat(2, 1fr); 
   }
 
   .product-card {
@@ -105,7 +105,7 @@
 /* Mobile View */
 @media (max-width: 768px) {
   .products {
-    grid-template-columns: 1fr; /* 1 column for mobile devices */
+    grid-template-columns: 1fr; 
   }
   
   .product-card {

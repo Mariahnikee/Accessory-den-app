@@ -1,10 +1,7 @@
-//import React, { useState } from 'react';
 import logo from '../images/watch1.png';
 import "./header.css";
 
 export const Header = () => {
-  //const [nav, setNav] = useState(false);
-
   return (
     <header className="headerNav">
       <div className="card">
