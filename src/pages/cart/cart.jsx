@@ -17,7 +17,7 @@ export const Cart = () => {
           if (cartItems[Product.id] !== 0) {
             return <CartItem key={Product.id} data={Product} />;
           }
-          // Add an explicit return of null if the condition is not met
+          // Add a return of null if the condition is not met
           return null;
         })}
       </div>

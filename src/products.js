@@ -8,11 +8,12 @@ import product7 from './images/product7.jpeg';
 import product8 from './images/product8.jpeg';
 import product9 from './images/product9.jpeg';
 import product10 from './images/product10.jpeg';
-import product11 from './images/product11.jpeg';
-import product12 from './images/product12.webp';
+import product11 from './images/product11.webp';
+import product12 from './images/product12.jpeg';
 import product13 from './images/product13.jpeg';
-import product14 from './images/product14.webp';
-import product15 from './images/product15.jpeg';
+import product14 from './images/product14.jpeg';
+import product15 from './images/product15.webp';
+import product16 from './images/product16.png'
 
 export const PRODUCTS = [
   {
@@ -77,32 +78,38 @@ export const PRODUCTS = [
   },
   {
     id: 11,
-    productName: "TOM FORD DAX 0751-N",
-    price: 699.0,
+    productName: "Gucci WLS Van Gogh",
+    price: 284.0,
     productImage: product11,
   },
   {
     id: 12,
-    productName: "Gucci WLS Van Gogh ",
+    productName: "Ray-Ban Emporio",
     price: 228.0,
     productImage: product12,
   },
   {
     id: 13,
-    productName: "MONTBLANC 0253S 001",
-    price: 19.99,
+    productName: "TOM FORD DAX 0751-N",
+    price: 699.0,
     productImage: product13,
   },
   {
     id: 14,
-    productName: " Wears by GOLF WANG",
-    price: 68.0,
+    productName: "MONTBLANC 0253S 001",
+    price: 19.99,
     productImage: product14,
   },
   {
     id: 15,
+    productName: " Wears by GOLF WANG",
+    price: 68.0,
+    productImage: product15,
+  },
+  {
+    id: 16,
     productName: "Reginald Luxury",
     price: 120.0,
-    productImage: product15,
+    productImage: product16,
   }
 ];
