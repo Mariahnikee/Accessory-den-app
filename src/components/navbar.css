@@ -85,7 +85,7 @@
     color: #557882;
     display: block;
     position: absolute;
-    right: 10px;
+    right: 1px;
   }
 
   .links {
@@ -94,7 +94,7 @@
     justify-content: center; 
     align-items: center; 
     width: 100%;
-    padding-left: 100px;
+    padding-left: 200px;
     margin-top: 2px; 
     gap: 1rem; 
   }
@@ -103,6 +103,11 @@
     padding: 0; 
     margin: 0;
   }
+
+  .links a:first-child {
+    display: none; 
+  }
+
 
   .nav {
     position: fixed; 
